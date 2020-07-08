@@ -1,0 +1,2 @@
+BASEDIR = '~/Dropbox'
+VIEWER = 'code'
