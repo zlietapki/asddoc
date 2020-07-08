@@ -1,1 +1,0 @@
-/home/asd/my/asddoc/asddoc.py
