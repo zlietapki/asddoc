@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+123#!/usr/bin/env python3
 import sys
 from asddoc import main, show_help
 
