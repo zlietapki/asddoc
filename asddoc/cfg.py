@@ -1,2 +1,0 @@
-BASEDIR = '~/Dropbox'
-VIEWER = 'code'
