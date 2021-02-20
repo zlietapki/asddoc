@@ -16,7 +16,7 @@ def resolve_doc(doc):
     real_full_doc = os.path.realpath(full_doc)
 
     if os.path.isdir(real_full_doc):
-        doc_basename = os.path.basename(real_full_doc)  # tail can changed because of synmlink
+        doc_basename = os.path.basename(real_full_doc)  # tail can changed because of symlink
         res = os.path.join(real_full_doc, doc_basename + '.md')
         return res
 
