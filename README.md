@@ -7,7 +7,7 @@ Install
 -------
 
 ```bash
-go install github.com/zlietapki/asddoc
+go install github.com/zlietapki/asddoc@latest
 ```
 
 Usage
