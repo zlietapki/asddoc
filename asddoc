@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+if [[ $# != 1 ]]; then
+    echo "Need one document name as parameter"
+    exit 1
+fi
+
+base=$HOME/Dropbox/
+open="codium"
+
+IFS='/' read -ra names <<< "$1"
+namesCnt=${#names[@]}
+
+if [[ $namesCnt == 1 ]]; then
+    $open ${base}${names[0]}/index.md
+elif [[ $namesCnt == 2 ]]; then
+    $open ${base}${names[0]}/${names[1]}.md
+fi
